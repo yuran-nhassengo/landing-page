@@ -28,12 +28,40 @@ const ActionButton = () => {
                                 <Link href="/">
                                     Sign in
                                 </Link>
+                                <Link href="/">
+                                    Get Started
+                                </Link>
+                                <Link href="/">
+                                    Pricing
+                                </Link>
+                                <Link href="/">
+                                    Features
+                                </Link>
+                                <Link href="/">
+                                    Contact
+                                </Link>
+                                <Link href="/">
+                                    About
+                                </Link>
                             </div>
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>
             </Sheet>
-        </div>
+            </div>
+
+            <div className="hidden md:flex md:space-x-4">
+                    <Button 
+                        className='text-md'
+                        variant="ghost"
+                    >
+                        Sign In
+                    </Button>
+                    <Button className="text-md bg-blue-500">
+                            Get Started
+                    </Button>
+            </div>
+        
     </div>
   )
 }
